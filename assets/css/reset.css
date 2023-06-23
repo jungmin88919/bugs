@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+html,
+body{
+    position: relative;
+    height: 100%;
+    font-size: 100%;
+    color: var(--txt-primary);
+    word-break: break-word;
+    word-wrap: break-word;
+    background: var(--bg);
+    font-family: RixMgo,Apple SD Gothic Neo,HelveticaNeue,arial,sans-serif;
+    font-weight: 300;
+    line-height: 1;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ul {
+    list-style: none;
+}
+
+fieldset,
+select,
+input {
+    border: 0;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+:root {
+    --bg: #fff;
+    --border: #e8e8e8;
+    --txt-primary: #3a3635;
+    --txt-secondary: #757271;
+    --txt-accent: #ff3d33;
+    --txt-strong: #000;
+    --btn-primary-bg: #fff;
+    --btn-primary-txt: #3a3635;
+    --btn-primary-border: #dbdbdb;
+    --btn-primary-dimmed: 0.4;
+    --btn-accent-bg: #000;
+    --btn-accent-txt: #fff;
+    --btn-accent-border: transparent;
+    --btn-accent-dimmed: 0.4;
+    --thumbnail-border: rgba(0, 0, 0, .05);
+    --thumbnail-bg: rgba(0, 0, 0, .05);
+    --form-border: #dbdbdb;
+    --layer-bg: #fff;
+    --layer-title-border: #efefef;
+    --layer-btn-close: #4f4f4f;
+    --section-divider-bg: #f8f8f8;
+    --section-divider-border: #efefef
+}

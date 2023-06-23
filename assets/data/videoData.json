@@ -1,0 +1,32 @@
+{
+    "items":[
+        {
+            "id":1,
+            "thumb":"../assets/images/mv/mv01.jpg",
+            "title":"I AM",
+            "artist":"IVE (아이브)",
+            "time":"03:04"
+        },
+        {
+            "id":2,
+            "thumb":"../assets/images/mv/mv02.jpg",
+            "title":"Kitsch",
+            "artist":"IVE (아이브)",
+            "time":"03:04"
+        },
+        {
+            "id":3,
+            "thumb":"../assets/images/mv/mv03.jpg",
+            "title":"UNFORGIVEN (feat. Nile Rodgers)",
+            "artist":"LE SSERAFIM (르세라핌)",
+            "time":"04:19"
+        },
+        {
+            "id":4,
+            "thumb":"../assets/images/mv/mv04.jpg",
+            "title":"꽃(FLOWER)",
+            "artist":"지수(JISOO)",
+            "time":"03:04"
+        }
+    ]
+}

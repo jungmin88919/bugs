@@ -1,0 +1,135 @@
+/* 숨김 텍스트 */
+legend, .blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+/* 모바일스프라이트이미지 */
+.nav-layer .version-area button::before,
+.gnb .gnb-list .gnb-item a::before,
+.go-app .btn-close::after,
+.footer .link-wrap .company-info .info-link a::after,
+.footer .info-area .link-wrap .company::after,
+.footer .btn-area .btn-top::before,
+.sc-popalbum .popalbum-item .play,
+.sc-chart .chart-item .play,
+.sc-chart .chart-item .ranking .change.none .arrow,
+.sc-chart .chart-item .ranking .change.up .arrow,
+.sc-chart .chart-item .ranking .change.down .arrow,
+.sc-newmusic .newmusic-item .img-wrap .play,
+.headline a::after,
+.header-search .input-box .sch-btn::after,
+.header .link-area .search-btn::after,
+.header .link-area .ticket-link::after,
+.header .logo a{
+    background-image: url('../images/sprite_mobile.png');
+    background-repeat: no-repeat;
+    background-size: 454px auto;
+}
+
+.footer .btn-area .app-wrap .btn-app::before{
+    background: url('../images/sprite_common.png');
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+}
+
+.go-app{
+    background: url('../images/sprite_music.png');
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+}
+
+
+/* 헤드라인 */
+.headline{
+    padding: 31px 0 18px;
+    font-size: 1.125rem;
+    line-height: 1.166667;
+    text-align: center;
+}
+.headline a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headline a::after{
+    width: 24px;
+    height: 24px;
+    background-position: -200px -311px;
+    content: '';
+}
+/* 인풋박스 포서스시 아웃라인 색상 변경 */
+.header-search .input-box input:focus{
+    outline: 1px solid var(--txt-accent);
+    border: none;
+}
+/* 썸네일 이미지 테두리 */
+.img-wrap img{
+    border: 1px solid var(--thumbnail-border);
+}
+/* 섹션나누기 */
+section::after{
+    display: block;
+    height: 12px;
+    border-top: 1px solid var(--section-divider-border);
+    border-bottom: 1px solid var(--section-divider-border);
+    background-color: var(--section-divider-bg);
+    content: '';
+}
+section:last-child::after{
+    display: none;
+}
+
+/* 전체메뉴가 열릴시에 바닥은 비활성화된다 */
+.scroll-hidden{
+    overflow: hidden;
+}
+.scroll-hidden::after{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 299;
+    content: '';
+}
+
+/* 앱에서 열기 */
+
+.go-app{
+    display: flex;
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 42px;
+    background-position: -200px -40px;
+    z-index:500;
+}
+.go-app .btn-app{
+    height: 42px;
+    width: 122px;
+    font-size: .75rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 42px;
+    text-align: right;
+}
+.go-app .btn-close{
+    width: 38px;
+    height: 42px;
+    overflow: hidden;
+}
+.go-app .btn-close::after{
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background-position: -332px 0;
+    content: '';
+}

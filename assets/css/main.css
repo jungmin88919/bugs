@@ -1,0 +1,381 @@
+/* 배너스와이퍼 */
+.sc-banner{
+    max-height: 210px;
+    width: 100%;
+    overflow: hidden;
+}
+.sc-banner .group-banner{
+    width: 100%;
+    height: 100%;
+}
+.sc-banner .group-banner li{
+    width: 100%;
+}
+.sc-banner .group-banner li a{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    width: 360px;
+    height: 210px;
+    transform: translateX(-50%);
+    
+}
+.sc-banner .group-banner .slide01{background: #46003d;}
+.sc-banner .group-banner .slide02{background: #1b3674;}
+.sc-banner .group-banner .slide03{background: #4a0200;}
+.sc-banner .group-banner .slide04{background: #002b6e;}
+.sc-banner .group-banner .slide05{background: #521874;}
+
+.swiper-pagination .swiper-pagination-bullet{
+    background: #fff;
+    opacity: .3;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+    background: #fff;
+    opacity: 1;
+}
+
+/* 최신음악 */
+.sc-newmusic{
+    padding-top: 15px;
+}
+.sc-newmusic .newmusic-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 15px;
+    padding: 0 14px;
+}
+.sc-newmusic .newmusic-item{
+    padding-bottom: 24px;
+}
+.sc-newmusic .newmusic-item a{
+    display: block;
+}
+.sc-newmusic .newmusic-item .img-wrap{
+    position: relative;
+    padding-bottom: 100%;
+}
+.sc-newmusic .newmusic-item .img-wrap img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sc-newmusic .newmusic-item .img-wrap .play{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 23px;
+    width: 23px;
+    z-index: 1;
+    background-position: -100px -386px;
+}
+.sc-newmusic .newmusic-item .txt-wrap{
+    padding-top: 10px;
+}
+.sc-newmusic .newmusic-item .txt-wrap .title{
+    font-size: .9375rem;
+    line-height: 1.33334;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.sc-newmusic .newmusic-item .txt-wrap .artist{
+    margin-top: 6px;
+    font-size: .75rem;
+}
+.sc-newmusic .newmusic-item .txt-wrap time{
+    display: block;
+    margin-top: 8px;
+    font-size: .75rem
+}
+.sc-newmusic .newmusic-item .txt-wrap .artist,
+.sc-newmusic .newmusic-item .txt-wrap time{
+    color: var(--txt-secondary);
+    line-height: 1.1667;
+    vertical-align: top;
+}
+
+/* 벅스차트 */
+.sc-chart{}
+.sc-chart .chart-list{
+    padding:0 5px 25px 15px;
+}
+.sc-chart .chart-list .chart-item{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.sc-chart .chart-list .chart-item a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.sc-chart .chart-list .chart-item .ranking{
+    width: 35px;
+    text-align: center;
+    font-size: .625rem;
+    color: var(--txt-secondary);
+    line-height: 1.2;
+}
+.sc-chart .chart-item .ranking strong{
+    display: block;
+    font-size: .8125rem;
+    font-weight: 300;
+    line-height: 1.1538;
+}
+.sc-chart .chart-item .ranking .change{
+    margin-top: 10px;
+}
+.sc-chart .chart-item .ranking .change .arrow{
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    margin-right: 1px;
+}
+.sc-chart .chart-item .ranking .change.none .arrow{
+    margin-right: 1px;
+    background-position: -445px -402px;
+}
+.sc-chart .chart-item .ranking .change.up .arrow{
+    background-position: -301px -206px;
+}
+.sc-chart .chart-item .ranking .change.down .arrow{
+    background-position:-446px -314px;
+}
+.sc-chart .chart-item .ranking .change em{
+    font-size:.625rem;
+    vertical-align: top;
+}
+.sc-chart .chart-item .ranking .change.up em{
+    color: var(--txt-accent);
+    
+}
+.sc-chart .chart-item .ranking .change.down em{
+    color:var(--txt-secondary)
+}
+.sc-chart .chart-item .trackLink{
+    flex: 1;
+    padding: 0 0 0 10px;
+}
+.sc-chart .chart-item .trackLink .track-wrap{
+    padding-top: 3px;
+}
+.sc-chart .chart-item .trackLink .track-wrap .title{
+    display: block;
+    font-size: .9375rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sc-chart .chart-item .trackLink .track-wrap .artist{
+    padding-top: 7px;
+    display: block;
+    font-size: .75rem;
+    color: var(--txt-secondary);
+    line-height: 1.1667;
+}
+.sc-chart .chart-item .play{
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-position: -45px -193px;
+}
+
+/* 배너 */
+.banner-wrap{
+    background: #6f00dd;
+}
+.banner-wrap a{
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid var(--section-divider-border);
+}
+.banner-wrap a img{
+    max-height:150px;
+    margin: 0 auto;
+}
+
+/* 뮤직포스트 */
+.sc-musicpost .post-list{
+    width: 300px;
+    margin: 0 auto;
+}
+.sc-musicpost .post-item{
+    margin-bottom: 15px;
+}
+.sc-musicpost .post-item .txt-wrap{
+    overflow: hidden;
+    padding: 10px;
+    font-size: 0;
+    text-align: center;
+}
+.sc-musicpost .post-item .txt-wrap .title{
+    display: block;
+    margin-bottom: 6px;
+    font-size: .9375rem;
+    font-weight: 300;
+    color: var(--txt-primary);
+    line-height: 1.3333;
+    text-align: center;
+}
+.sc-musicpost .post-item .txt-wrap .category{
+    display: block;
+    font-size: .75rem;
+    color: var(--txt-secondary);
+    line-height: 1.16667;
+}
+
+/* 인기 뮤직 피디 앨범 */
+.sc-popalbum{}
+.sc-popalbum .popalbum-list{
+    padding: 0 5px 25px 15px;
+}
+.sc-popalbum .popalbum-item{
+    display: flex;
+    align-items: center;
+}
+.sc-popalbum .popalbum-item + .popalbum-item{
+    margin-top: 20px;
+}
+.sc-popalbum .popalbum-item > * {
+    display: block;
+}
+.sc-popalbum .popalbum-item a{
+    display: flex;
+    gap: 10px;
+    width: calc(100% - 50px);
+}
+.sc-popalbum .popalbum-item .img-wrap{
+    width: 90px;
+    height: 90px;
+}
+.sc-popalbum .popalbum-item .txt-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 105px);
+}
+.sc-popalbum .popalbum-item .txt-wrap .title{
+    display: -webkit-box;
+    font-size: .9375rem;
+    line-height: 1.3334;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.sc-popalbum .popalbum-item .txt-wrap .pd-name{
+    display: block;
+    margin-top: 6px;
+    font-size: .75rem;
+    color: var(--txt-secondary);
+    line-height: 1.1667;
+}
+.sc-popalbum .popalbum-item .txt-wrap .tag{
+    margin-top: 8px;
+    white-space: normal;
+    overflow: hidden;
+    height: 14px;
+    font-size: .75rem;
+    color: var(--txt-secondary);
+    line-height: 1.1667;
+    vertical-align: top;
+}
+.sc-popalbum .popalbum-item .txt-wrap .tag span{
+    margin-left: 1px;
+}
+.sc-popalbum .popalbum-item .play{
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-position: -45px -193px
+}
+
+/* 인기영상 */
+.sc-mv{
+    padding-bottom: 24px;
+}
+.sc-mv .mv-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 15px;
+}
+.sc-mv .mv-list .mv-item{
+    width: calc((100% - 10px)/2);
+}
+.sc-mv .mv-list .mv-item a{
+    display: block;
+    height: 100%;
+}
+.sc-mv .mv-item .img-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: calc((99/175)*100%);
+    overflow: hidden;
+}
+.sc-mv .mv-item .img-wrap img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.sc-mv .mv-item .img-wrap::before{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg,transparent 50%,rgba(0,0,0,.5));
+    z-index: 1;
+    content: "";
+}
+.sc-mv .mv-item .img-wrap time{
+    position: absolute;
+    right: 7px;
+    bottom: 6px;
+    overflow: hidden;
+    font-size: .5625rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.222222;
+    z-index: 2;
+}
+.sc-mv .mv-item .txt-wrap{
+    margin-top: 10px;
+}
+.sc-mv .mv-item .txt-wrap .title{
+    display: block;
+    max-width: 100%;
+    font-size: .9375rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sc-mv .mv-item .txt-wrap .artist{
+    display: block;
+    margin-top: 7px;
+    font-size: .75rem;
+    color: var(--txt-secondary);
+    line-height: 1.1667;
+    margin-left: 1px;
+}
+
+

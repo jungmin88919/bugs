@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);@import url(https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css);@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"),url("https://file.bugsm.co.kr/wbugs/fonts/Montserrat.woff") format("woff")
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NotoSans-Regular.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NotoSans-Regular.woff") format("woff"),url("https://file.bugsm.co.kr/wbugs/fonts/NotoSans-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NotoSans-Bold.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NotoSans-Bold.woff") format("woff"),url("https://file.bugsm.co.kr/wbugs/fonts/NotoSans-Bold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: RixMgo;
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/RixMGo-Mobile-Light.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: RixMgo;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/RixMGo-Mobile-Medium.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: RixMgo;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/RixMGo-Mobile-Bold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: NanumBarunGothic;
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothicLight.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothicLight.woff") format("woff"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothicLight.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: NanumBarunGothic;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothic.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothic.woff") format("woff"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: NanumBarunGothic;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothicBold.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothicBold.woff") format("woff"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumBarunGothicBold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Pretendard Light"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Light.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Light.woff") format("woff")
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Pretendard Regular"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Regular.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Regular.woff") format("woff")
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Pretendard Medium"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Medium.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Medium.woff") format("woff")
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Pretendard SemiBold"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-SemiBold.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-SemiBold.woff") format("woff")
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Pretendard Bold"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Bold.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-Bold.woff") format("woff")
+}
+
+@font-face {
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local("Pretendard ExtraBold"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-ExtraBold.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/Pretendard-ExtraBold.woff") format("woff")
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-aLt.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-aLt.woff") format("woff");
+  font-display: fallback
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-bRg.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-bRg.woff") format("woff");
+  font-display: fallback
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-cBd.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-cBd.woff") format("woff");
+  font-display: fallback
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  font-style: normal;
+  font-weight: 800;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-dEb.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-dEb.woff") format("woff");
+  font-display: fallback
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-eHv.woff2") format("woff2"),url("https://file.bugsm.co.kr/wbugs/fonts/NanumSquareNeo-eHv.woff") format("woff");
+  font-display: fallback
+}

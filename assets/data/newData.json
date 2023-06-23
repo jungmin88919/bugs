@@ -1,0 +1,46 @@
+{
+    "items":[
+        {
+            "id":1,
+            "thumb":"../assets/images/new/new01.jpg",
+            "title":"연애의 참견 2023 OST - Part.12",
+            "artist":"레터 플로우",
+            "date":"2023.05.07"
+        },
+        {
+            "id":2,
+            "thumb":"../assets/images/new/new02.jpg",
+            "title":"너에게 하지 못한 이야기",
+            "artist":"성민제",
+            "date":"2023.05.08"
+        },
+        {
+            "id":3,
+            "thumb":"../assets/images/new/new03.jpg",
+            "title":"붉은장미",
+            "artist":"우예린",
+            "date":"2023.05.08"
+        },
+        {
+            "id":4,
+            "thumb":"../assets/images/new/new04.jpg",
+            "title":"Cherry Hill",
+            "artist":"스내키챈 (Snacky Chan)",
+            "date":"2023.05.08"
+        },
+        {
+            "id":5,
+            "thumb":"../assets/images/new/new05.jpg",
+            "title":"MOM AND DAD",
+            "artist":"양장세민",
+            "date":"2023.05.08"
+        },
+        {
+            "id":6,
+            "thumb":"../assets/images/new/new06.jpg",
+            "title":"달링달링(darling)",
+            "artist":"파니니 브런치(Panini Brunch)",
+            "date":"2023.05.08"
+        }
+    ]
+}
